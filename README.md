@@ -45,29 +45,26 @@ Crie o MetaAssistente a partir do código-fonte e instale as dependências:
 
 ```bash
 git clone https://github.com/taysouzaa/MetaAssistente
+```
 
+```bash
 2. Navegue até o diretório do projeto:
-
-
-
 cd MetaAssistente
+```
 
+```bash
 3. Instale as dependências:
-
-
-
 npm install
-
+```
 
 ---
 
 ⚙ Uso
 
+```bash
 Execute o projeto com:
-
 npm run dev
-
-
+```
 ---
 
 ✅ Teste
@@ -75,8 +72,9 @@ npm run dev
 O MetaAssistente utiliza o framework de testes.
 Execute o conjunto de testes com:
 
+```bash
 npm run test
-
+```
 
 ---
 
