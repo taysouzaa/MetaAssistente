@@ -1,76 +1,57 @@
-# METAASSISTENTE
+# MetaAssistente
 
-Fortalecendo sua estratégia de jogo com orientação inteligente
+> Assistente web interativo para orientação estratégica de partidas, com duas interfaces especializadas.
 
-[![last commit](https://img.shields.io/github/last-commit/taysouzaa/MetaAssistente)](https://github.com/taysouzaa/MetaAssistente)
-[![JavaScript](https://img.shields.io/badge/javascript-40.7%25-yellow)]()
-[![Languages](https://img.shields.io/badge/languages-3-blue)]()
+![Status](https://img.shields.io/badge/status-concluído-22c55e)
+![Frontend](https://img.shields.io/badge/frontend-HTML%2FCSS%2FJS-1f6feb)
+![Tipo](https://img.shields.io/badge/tipo-ferramenta%20web-f59e0b)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-Construído com as ferramentas e tecnologias:  
-![Markdown](https://img.shields.io/badge/-Markdown-000?logo=markdown)  
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=000)
+## Visão do Projeto
 
----
+O **MetaAssistente** é uma aplicação web que oferece orientação estratégica e inteligente para jogadores, com duas interfaces distintas adaptadas a diferentes contextos de uso. Combina consulta de informações com uma experiência visual imersiva.
 
-## 🧠 Visão geral
+### O que o sistema resolve
 
-O *MetaAssistente* é uma ferramenta web para desenvolvedores que integra assistência estratégica de jogos baseada em IA aos seus aplicativos.  
-Ele oferece uma interface interativa onde os usuários podem inserir perguntas com segurança, selecionar jogos e receber orientações concisas e em formato markdown em tempo real.
+- Fornece orientações estratégicas de forma rápida e acessível.
+- Oferece duas experiências visuais distintas para diferentes preferências.
+- Interface leve, sem necessidade de backend ou instalação.
 
-### Por que MetaAssistente?
+## O Que Foi Desenvolvido
 
-Este projeto visa simplificar a integração de suporte a jogos inteligentes em aplicações web. Os principais recursos incluem:
+### 1. Interface 1 — Assistente Principal (`index1.html`)
+- Consulta de estratégias e orientações em tempo real.
+- Layout limpo focado na usabilidade.
+- Lógica de interação em `script1.js`.
 
-- 🛡 *Manuseio seguro de entrada*: gerencie com segurança chaves de API e perguntas de usuários para proteger dados confidenciais.
-- 🎮 *Suporte a vários jogos*: fornece estratégias e dicas para Valorant, League of Legends e CS:GO.
-- ⚡ *Respostas em tempo real*: orientação de IA instantânea e em formato markdown.
-- 🖥 *Integração perfeita com o front-end*: conecta interações de usuário com serviços de IA de back-end.
-- 🧾 *Assistência contextual*: usa instruções específicas para orientar decisões do jogador.
+### 2. Interface 2 — Visão Alternativa (`index2.html`)
+- Experiência visual alternativa com background imersivo (`bg.jpg`).
+- Fluxo de navegação diferenciado.
+- Lógica independente em `script2.js`.
 
----
+## Stack Técnica
 
-## 📦 Pré-requisitos
+- **Frontend:** HTML5, CSS3, JavaScript (vanilla)
+- **Deploy:** Hospedagem estática — sem dependências externas
 
-Este projeto requer as seguintes dependências:
+## Estrutura do Projeto
 
-- *Linguagem de programação:* HTML
-
----
-
-## 🚀 Instalação
-
-Crie o MetaAssistente a partir do código-fonte e instale as dependências:
-
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/taysouzaa/MetaAssistente
+```text
+.
+├─ index1.html    ← interface principal
+├─ index2.html    ← interface alternativa
+├─ script1.js     ← lógica da interface 1
+├─ script2.js     ← lógica da interface 2
+├─ style1.css     ← estilos da interface 1
+├─ style2.css     ← estilos da interface 2
+├─ bg.jpg         ← imagem de fundo
+└─ logo.png       ← logotipo
 ```
 
-```bash
-2. Navegue até o diretório do projeto:
-cd MetaAssistente
-```
+## Como Executar
 
-```bash
-3. Instale as dependências:
-npm install
-```
+Abra `index1.html` ou `index2.html` diretamente no navegador.
 
----
+## Licença
 
-⚙ Uso
-
-```bash
-Execute o projeto com:
-npm run dev
-```
----
-
-✅ Teste
-
-O MetaAssistente utiliza o framework de testes.
-Execute o conjunto de testes com:
-
-```bash
-npm run test
+MIT — veja [LICENSE](./LICENSE)
