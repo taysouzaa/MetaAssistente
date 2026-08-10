@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/status-concluído-22c55e)
 ![Frontend](https://img.shields.io/badge/frontend-HTML%2FCSS%2FJS-1f6feb)
 ![Tipo](https://img.shields.io/badge/tipo-ferramenta%20web-f59e0b)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Licença](https://img.shields.io/badge/licença-proprietária-red)
 
 > **Estado:** ativo · **Última revisão:** 2026-08-10
 
@@ -56,4 +56,4 @@ Abra `index1.html` ou `index2.html` diretamente no navegador.
 
 ## Licença
 
-MIT — veja [LICENSE](./LICENSE)
+Licença proprietária — todos os direitos reservados. O código pode ser lido para avaliação profissional ou estudo; qualquer reuso, cópia, modificação ou uso comercial exige autorização prévia e por escrito da autora. Ver [LICENSE](./LICENSE).
