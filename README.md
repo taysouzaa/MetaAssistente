@@ -11,13 +11,13 @@
 
 ## Visão geral
 
-O **MetaAssistente** é uma aplicação web que oferece orientação estratégica e inteligente para jogadores, com duas interfaces distintas adaptadas a diferentes contextos de uso. Combina consulta de informações com uma experiência visual imersiva.
+O **MetaAssistente** é uma aplicação web que responde dúvidas de estratégia de partidas consultando a **API do Google Gemini** (`generativelanguage/v1beta`). São duas interfaces distintas sobre a mesma ideia, cada uma com sua própria lógica e identidade visual. Projeto construído durante o **NLW Agents** da Rocketseat.
 
 ### O que o sistema resolve
 
 - Fornece orientações estratégicas de forma rápida e acessível.
 - Oferece duas experiências visuais distintas para diferentes preferências.
-- Interface leve, sem necessidade de backend ou instalação.
+- Interface leve: roda direto no navegador, sem backend próprio nem instalação.
 
 ## O que foi desenvolvido
 
@@ -34,7 +34,10 @@ O **MetaAssistente** é uma aplicação web que oferece orientação estratégic
 ## Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript (vanilla)
-- **Deploy:** Hospedagem estática — sem dependências externas
+- **IA:** API do Google Gemini, chamada direto do navegador via `fetch`
+- **Deploy:** Hospedagem estática — sem build
+
+> ⚠️ A chave da API do Gemini é digitada pelo usuário no próprio formulário e fica só na memória da página — não é versionada nem enviada a lugar nenhum além do endpoint do Google. É uma escolha adequada a uma demo pessoal; num produto real a chamada iria para um proxy no servidor, como faço nos outros projetos.
 
 ## Estrutura do projeto
 
